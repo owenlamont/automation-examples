@@ -1,6 +1,8 @@
 # automation-examples
 Example Python scripts for automating workflows (primarily with MS Office products on Windows)
 
+The scripts were intended to be run in interactive mode using Visual Studio Code with the Python plugin. They can easily be converted to Jupyter notebooks by the same plugin. The machine_learning.py script is the only script that actually needs to be run interatively to see the graphics - the other scripts all produce some visible artifact such as creating a file or launching an applicaiton.
+
 There's examples of the following tasks:
 * create_certificates.py - Creates word documents automatically.
 * machine_learning.py - Demonstrates reading an Excel spreadsheet as a pandas dataframe and fitting a simple linear regression model to the data.
